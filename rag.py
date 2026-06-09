@@ -47,7 +47,7 @@ print("Content:", chunks[best_index]["text"])
 
 import anthropic
 
-client = anthropic.Anthropic(api_key="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")
+client = anthropic.Anthropic(api_key="ANTHROPIC_API_KEY")
 
 context = chunks[best_index]["text"]
 
